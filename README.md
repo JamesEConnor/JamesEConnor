@@ -1,4 +1,4 @@
-<img src="https://github.com/JamesEConnor/JamesEConnor/raw/master/header.gif" alt="Header Image" style="width:100%;">
+![Header Image](https://raw.githubusercontent.com/JamesEConnor/JamesEConnor/main/Capture.PNG)
 
 <!--
 **JamesEConnor/JamesEConnor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
