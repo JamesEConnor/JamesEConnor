@@ -1,0 +1,142 @@
+.circle {    
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) scaleY(1.2);
+    
+    border-radius: 50%;
+    
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.circle.active {
+    transition: all linear 0s;
+}
+
+#circle1.normal {
+    width: 582px;
+    height: 582px;
+    background-color: #799ff8;
+    
+    animation-name: circle1;
+}
+
+@keyframes circle1 {
+    from {width: 582px; height: 582px; background-color: #799ff8; }
+    to {width: 430px; height: 430px; background-color: #a2bcf8; }
+}
+
+#circle2.normal {
+    width: 430px;
+    height: 430px;
+    background-color: #a2bcf8;
+    
+    animation-name: circle2;
+}
+
+@keyframes circle2 {
+    from {width: 430px; height: 430px; background-color: #a2bcf8; }
+    to {width: 300px; height: 300px; background-color: #c8d7fa; }
+}
+
+#circle3.normal {
+    width: 300px;
+    height: 300px;
+    background-color: #c8d7fa;
+    
+    animation-name: circle3;
+}
+
+@keyframes circle3 {
+    from {width: 300px; height: 300px; background-color: #c8d7fa; }
+    to {width: 120px; height: 120px; background-color: #f8faff; }
+}
+
+#circle4.normal {
+    width: 120px;
+    height: 120px;
+    background-color: #f8faff;
+    
+    animation-name: circle4;
+}
+
+@keyframes circle4 {
+    from {width: 120px; height: 120px; background-color: #f8faff; }
+    to {width: 0; height: 0; }
+}
+
+#circle0 {
+    width: 692px;
+    height: 692px;
+    background-color: #799ff8;
+    opacity: 0;
+    
+    animation-name: circle0;
+}
+
+@keyframes circle0 {
+    from {width:692px; height: 692px; opacity: 0;}
+    to { width: 582px; height: 582px; opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+#content {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+}
+
+#content h1 {
+    font-family: "Bungee Inline", cursive;
+    font-size: 32pt;
+    color: white;
+}
+
+#content h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #dfe5ef;
+}
+
+#content ul {
+    margin: 10px 0;
+}
+
+#content ul li {
+    padding: 2px 5px;
+}
+
+#content ul li p {
+    display: inline-block;
+    min-width: 50px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+#content ul li h3 {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #dfe5ef;
+}
+
+#content > p {  
+    margin-top: 40px;
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: white;
+}
