@@ -95,7 +95,7 @@
         
         @font-face {
             font-family: "Bungee";
-            src: url("BungeeInline-Regular.ttf") format("truetype");
+            src: url("https://github.com/JamesEConnor/JamesEConnor/blob/main/assets/BungeeInline-Regular.ttf") format("truetype");
         }
         
         .h2, .p:not(.inline) {
@@ -108,7 +108,7 @@
         
         @font-face {
             font-family: "Roboto";
-            src: url("Roboto-Regular.ttf") format("truetype");
+            src: url("https://github.com/JamesEConnor/JamesEConnor/blob/main/assets/Roboto-Regular.ttf") format("truetype");
         }
         
         .h2 {
