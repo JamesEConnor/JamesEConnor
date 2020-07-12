@@ -1,4 +1,4 @@
-![Header Image](assets/header.svg)
+![Header Image](https://raw.githubusercontent.com/JamesEConnor/JamesEConnor/main/assets/header.svg?sanitize=true)
 
 <!--
 **JamesEConnor/JamesEConnor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
